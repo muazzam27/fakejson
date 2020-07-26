@@ -150,8 +150,8 @@
       {
         "question_id": 17,
         "survey_name": "Maruti NCR",
-        "label": "Pre5",
-        "question_type": "number",
+        "label": "Text Area Demo",
+        "question_type": "textarea",
         "dropdown_option": [
           "Drop1",
           "Drop2"
@@ -189,27 +189,7 @@
           "mcqtext2"
         ]
       },
-      {
-        "question_id": 18,
-        "survey_name": "Maruti NCR",
-        "label": "Pre5B",
-        "question_type": "uploadRecording",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "number",
-          "number_validation": "length",
-          "min_length": "100",
-          "max_length": "10",
-          "active": 1
-        },
-        "mcq_option": [
-          "mcqtext1",
-          "mcqtext2"
-        ]
-      },
+   
       {
         "question_id": 20,
         "survey_name": "Maruti NCR",
