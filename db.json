@@ -7,11 +7,11 @@
       {
         "question_id": 10,
         "survey_name": "Maruti NCR",
-        "label": "Pre1",
+        "label": "Automatic",
         "question_type": "dropdown",
         "dropdown_option": [
-          "Drop1",
-          "Drop2"
+          "Yes",
+          "No"
         ],
         "validation": {
           "name": "dropdown",
@@ -58,7 +58,7 @@
       {
         "question_id": 11,
         "survey_name": "Maruti NCR",
-        "label": "Pre2",
+        "label": "Enter name",
         "question_type": "text",
         "dropdown_option": [
           "Drop1",
@@ -75,7 +75,7 @@
       {
         "question_id": 13,
         "survey_name": "Maruti NCR",
-        "label": "pre3",
+        "label": "Start End",
         "question_type": "date",
         "dropdown_option": [
           "Drop1",
@@ -92,7 +92,7 @@
        {
         "question_id": 14,
         "survey_name": "Maruti NCR",
-        "label": "Start date",
+        "label": "End date",
         "question_type": "date",
         "dropdown_option": [
           "Drop1",
@@ -109,7 +109,7 @@
       {
         "question_id": 12,
         "survey_name": "Maruti NCR",
-        "label": "Pre4",
+        "label": "Quality Test",
         "question_type": "mcq",
         "dropdown_option": [
           "Drop1",
@@ -122,14 +122,15 @@
           "active": 1
         },
         "mcq_option": [
-          "mcqtext1",
-          "mcqtext2"
+          "A+",
+          "B+",
+          "C+"
         ]
       },
       {
         "question_id": 16,
         "survey_name": "Maruti NCR",
-        "label": "Options",
+        "label": "Body Type Options",
         "question_type": "mcq",
         "dropdown_option": [
           "Drop1",
@@ -172,7 +173,7 @@
       {
         "question_id": 19,
         "survey_name": "Maruti NCR",
-        "label": "Pre5B",
+        "label": "Registeration number",
         "question_type": "number",
         "dropdown_option": [
           "Drop1",
@@ -194,7 +195,7 @@
       {
         "question_id": 20,
         "survey_name": "Maruti NCR",
-        "label": "Pre5B",
+        "label": "upload Audio",
         "question_type": "uploadAudio",
         "dropdown_option": [
           "Drop1",
