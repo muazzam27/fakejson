@@ -44,8 +44,8 @@
         "question_type": "dropdown",
         "dropdown_option": [
           "ML1",
-          "ML1",
-          "ML1"
+          "ML2",
+          "ML3"
         ],
         "validation": {
           "name": "dropdown",
