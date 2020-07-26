@@ -5,7 +5,7 @@
     "question_stage_type": "pre_question_type",
     "data": [
       {
-        "question_id": 11,
+        "question_id": 10,
         "survey_name": "Maruti NCR",
         "label": "Pre1",
         "question_type": "dropdown",
@@ -21,7 +21,7 @@
         }
       },
       {
-        "question_id": 55,
+        "question_id": 56,
         "survey_name": "Maruti NCR",
         "label": "Car Model",
         "question_type": "dropdown",
@@ -55,7 +55,7 @@
         }
       },
       {
-        "question_id": 13,
+        "question_id": 11,
         "survey_name": "Maruti NCR",
         "label": "Pre2",
         "question_type": "text",
@@ -72,7 +72,7 @@
         }
       },
       {
-        "question_id": 14,
+        "question_id": 13,
         "survey_name": "Maruti NCR",
         "label": "pre3",
         "question_type": "date",
@@ -106,7 +106,7 @@
         }
       },
       {
-        "question_id": 16,
+        "question_id": 12,
         "survey_name": "Maruti NCR",
         "label": "Pre4",
         "question_type": "mcq",
@@ -169,7 +169,7 @@
         ]
       },
       {
-        "question_id": 18,
+        "question_id": 19,
         "survey_name": "Maruti NCR",
         "label": "Pre5B",
         "question_type": "number",
@@ -211,7 +211,7 @@
         ]
       },
       {
-        "question_id": 18,
+        "question_id": 20,
         "survey_name": "Maruti NCR",
         "label": "Pre5B",
         "question_type": "uploadAudio",
