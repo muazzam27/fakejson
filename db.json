@@ -45,7 +45,8 @@
         "dropdown_option": [
           "ML1",
           "ML2",
-          "ML3"
+          "ML3",
+          "ML4"
         ],
         "validation": {
           "name": "dropdown",
