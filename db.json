@@ -212,6 +212,27 @@
           "mcqtext1",
           "mcqtext2"
         ]
+      },
+       {
+        "question_id": 20,
+        "survey_name": "Maruti NCR",
+        "label": "upload Image",
+        "question_type": "image",
+        "dropdown_option": [
+          "Drop1",
+          "Drop2"
+        ],
+        "validation": {
+          "name": "number",
+          "number_validation": "length",
+          "min_length": "100",
+          "max_length": "10",
+          "active": 1
+        },
+        "mcq_option": [
+          "mcqtext1",
+          "mcqtext2"
+        ]
       }
     ]
   }
