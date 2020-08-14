@@ -1,239 +1,210 @@
-{
-  "data": {
-    "status": 200,
-    "message": "success",
-    "question_stage_type": "pre_question_type",
-    "data": [
+[
+  {
+    "reservationId": 2000000484,
+    "createdTs": "2020-08-14T07:02:31.906074Z",
+    "expirationTs": "2020-08-15T19:00:00Z",
+    "customerName": "Kirsten Brixen Møller",
+    "customerEmail": "kirstenbrixen@hotmail.com",
+    "customerMobile": "+4520532889",
+    "status": "ACTIVE",
+    "storeId": "1393",
+    "collectInPickupCenter": false,
+    "lineItems": [
       {
-        "question_id": 10,
-        "survey_name": "Maruti NCR",
-        "label": "Automatic",
-        "question_type": "dropdown",
-        "dropdown_option": [
-          "Yes",
-          "No"
-        ],
-        "validation": {
-          "name": "dropdown",
-          "select_type": "single select type",
-          "select_valid": "compulsory",
-          "active": 1
-        }
+        "productId": "100255161",
+        "name": "iPhone 7 32GB",
+        "erpProductId": "42322901-EA",
+        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
+        "ean": "5706649020021",
+        "totalPrice": 4782,
+        "quantity": 1
+      }
+    ],
+    "reservationEvents": [
+      {
+        "createdTs": "2020-08-14T07:02:31.906074Z",
+        "status": "ACTIVE",
+        "modifiedBy": "system"
+      }
+    ]
+  },
+  {
+    "reservationId": 2000000483,
+    "createdTs": "2020-08-14T07:02:26.110064Z",
+    "expirationTs": "2020-08-15T19:00:00Z",
+    "customerName": "Kirsten Brixen Møller",
+    "customerEmail": "kirstenbrixen@hotmail.com",
+    "customerMobile": "+4520532889",
+    "status": "ACTIVE",
+    "storeId": "1393",
+    "collectInPickupCenter": false,
+    "lineItems": [
+      {
+        "productId": "100255161",
+        "name": "iPhone 7 32GB",
+        "erpProductId": "42322901-EA",
+        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
+        "ean": "5706649020021",
+        "totalPrice": 4782,
+        "quantity": 1
+      }
+    ],
+    "reservationEvents": [
+      {
+        "createdTs": "2020-08-14T07:02:26.110064Z",
+        "status": "ACTIVE",
+        "modifiedBy": "system"
+      }
+    ]
+  },
+  {
+    "reservationId": 2000000482,
+    "createdTs": "2020-08-14T07:02:20.076263Z",
+    "expirationTs": "2020-08-15T19:00:00Z",
+    "customerName": "Kirsten Brixen Møller",
+    "customerEmail": "kirstenbrixen@hotmail.com",
+    "customerMobile": "+4520532889",
+    "status": "ACTIVE",
+    "storeId": "1393",
+    "collectInPickupCenter": false,
+    "lineItems": [
+      {
+        "productId": "100255161",
+        "name": "iPhone 7 32GB",
+        "erpProductId": "42322901-EA",
+        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
+        "ean": "5706649020021",
+        "totalPrice": 4782,
+        "quantity": 1
+      }
+    ],
+    "reservationEvents": [
+      {
+        "createdTs": "2020-08-14T07:02:20.076263Z",
+        "status": "ACTIVE",
+        "modifiedBy": "system"
+      }
+    ]
+  },
+  {
+    "reservationId": 2000000481,
+    "createdTs": "2020-08-14T07:02:12.497652Z",
+    "expirationTs": "2020-08-15T19:00:00Z",
+    "customerName": "Kirsten Brixen Møller",
+    "customerEmail": "kirstenbrixen@hotmail.com",
+    "customerMobile": "+4520532889",
+    "status": "ACTIVE",
+    "storeId": "1393",
+    "collectInPickupCenter": false,
+    "lineItems": [
+      {
+        "productId": "100255161",
+        "name": "iPhone 7 32GB",
+        "erpProductId": "42322901-EA",
+        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
+        "ean": "5706649020021",
+        "totalPrice": 4782,
+        "quantity": 1
+      }
+    ],
+    "reservationEvents": [
+      {
+        "createdTs": "2020-08-14T07:02:12.497652Z",
+        "status": "ACTIVE",
+        "modifiedBy": "system"
+      }
+    ]
+  },
+  {
+    "reservationId": 2000000478,
+    "createdTs": "2020-08-14T05:52:59.463128Z",
+    "expirationTs": "2020-08-15T19:00:00Z",
+    "customerName": "Kirsten Brixen Møller",
+    "customerEmail": "kirstenbrixen@hotmail.com",
+    "customerMobile": "+4520532889",
+    "status": "ACTIVE",
+    "storeId": "1393",
+    "collectInPickupCenter": false,
+    "lineItems": [
+      {
+        "productId": "100255161",
+        "name": "iPhone 7 32GB",
+        "erpProductId": "42322901-EA",
+        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
+        "ean": "5706649020021",
+        "totalPrice": 4782,
+        "quantity": 1
+      }
+    ],
+    "reservationEvents": [
+      {
+        "createdTs": "2020-08-14T05:52:59.463128Z",
+        "status": "ACTIVE",
+        "modifiedBy": "system"
+      }
+    ]
+  },
+  {
+    "reservationId": 2000000477,
+    "createdTs": "2020-08-14T05:52:52.728325Z",
+    "expirationTs": "2020-08-15T19:00:00Z",
+    "customerName": "Kirsten Brixen Møller",
+    "customerEmail": "kirstenbrixen@hotmail.com",
+    "customerMobile": "+4520532889",
+    "status": "ACTIVE",
+    "storeId": "1393",
+    "collectInPickupCenter": false,
+    "lineItems": [
+      {
+        "productId": "100255161",
+        "name": "iPhone 7 32GB",
+        "erpProductId": "42322901-EA",
+        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
+        "ean": "5706649020021",
+        "totalPrice": 4782,
+        "quantity": 1
+      }
+    ],
+    "reservationEvents": [
+      {
+        "createdTs": "2020-08-14T05:52:52.728325Z",
+        "status": "ACTIVE",
+        "modifiedBy": "system"
+      }
+    ]
+  },
+  {
+    "reservationId": 2000000476,
+    "createdTs": "2020-08-14T05:52:42.201217Z",
+    "expirationTs": "2020-08-15T19:00:00Z",
+    "customerName": "Kirsten Brixen Møller",
+    "customerEmail": "kirstenbrixen@hotmail.com",
+    "customerMobile": "+4520532889",
+    "status": "UNAVAILABLE",
+    "storeId": "1393",
+    "collectInPickupCenter": false,
+    "lineItems": [
+      {
+        "productId": "100255161",
+        "name": "iPhone 7 32GB",
+        "erpProductId": "42322901-EA",
+        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
+        "ean": "5706649020021",
+        "totalPrice": 4782,
+        "quantity": 1
+      }
+    ],
+    "reservationEvents": [
+      {
+        "createdTs": "2020-08-14T06:44:39.151575Z",
+        "status": "UNAVAILABLE",
+        "modifiedBy": "100188"
       },
       {
-        "question_id": 56,
-        "survey_name": "Maruti NCR",
-        "label": "Car Model",
-        "question_type": "dropdown",
-        "dropdown_option": [
-          "Suzuki",
-          "Honda",
-          "Tasla"
-        ],
-        "validation": {
-          "name": "dropdown",
-          "select_type": "single select type",
-          "select_valid": "compulsory",
-          "active": 1
-        }
-      },
-      {
-        "question_id": 55,
-        "survey_name": "Maruti NCR",
-        "label": "Varient",
-        "question_type": "dropdown",
-        "dropdown_option": [
-          "ML1",
-          "ML2",
-          "ML3",
-          "ML4"
-        ],
-        "validation": {
-          "name": "dropdown",
-          "select_type": "single select type",
-          "select_valid": "compulsory",
-          "active": 1
-        }
-      },
-      {
-        "question_id": 11,
-        "survey_name": "Maruti NCR",
-        "label": "Enter name",
-        "question_type": "text",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "text limit",
-          "max_character": "100",
-          "min_character": "100",
-          "input_valid": "All character",
-          "active": 1
-        }
-      },
-      {
-        "question_id": 13,
-        "survey_name": "Maruti NCR",
-        "label": "Start End",
-        "question_type": "date",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "date",
-          "date_select": "date_range",
-          "date_from": "30/07/2020",
-          "date_to": "20/10/2020",
-          "active": 1
-        }
-      },
-       {
-        "question_id": 14,
-        "survey_name": "Maruti NCR",
-        "label": "End date",
-        "question_type": "date",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "date",
-          "date_select": "date_range",
-          "date_from": "30/07/2020",
-          "date_to": "20/10/2020",
-          "active": 1
-        }
-      },
-      {
-        "question_id": 12,
-        "survey_name": "Maruti NCR",
-        "label": "Quality Test",
-        "question_type": "mcq",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "mcq",
-          "select_type": "multiple select type",
-          "select_valid": "compulsory",
-          "active": 1
-        },
-        "mcq_option": [
-          "A+",
-          "B+",
-          "C+"
-        ]
-      },
-      {
-        "question_id": 16,
-        "survey_name": "Maruti NCR",
-        "label": "Body Type Options",
-        "question_type": "mcq",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "mcq",
-          "select_type": "multiple select type",
-          "select_valid": "compulsory",
-          "active": 1
-        },
-        "mcq_option": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ]
-      },
-      {
-        "question_id": 17,
-        "survey_name": "Maruti NCR",
-        "label": "Text Area Demo",
-        "question_type": "textarea",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "number",
-          "number_validation": "range",
-          "range_start": "10",
-          "range_end": "20",
-          "active": 1
-        },
-        "mcq_option": [
-          "mcqtext1",
-          "mcqtext2"
-        ]
-      },
-      {
-        "question_id": 19,
-        "survey_name": "Maruti NCR",
-        "label": "Registeration number",
-        "question_type": "number",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "number",
-          "number_validation": "length",
-          "min_length": "100",
-          "max_length": "10",
-          "active": 1
-        },
-        "mcq_option": [
-          "mcqtext1",
-          "mcqtext2"
-        ]
-      },
-   
-      {
-        "question_id": 20,
-        "survey_name": "Maruti NCR",
-        "label": "upload Audio",
-        "question_type": "uploadAudio",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "number",
-          "number_validation": "length",
-          "min_length": "100",
-          "max_length": "10",
-          "active": 1
-        },
-        "mcq_option": [
-          "mcqtext1",
-          "mcqtext2"
-        ]
-      },
-       {
-        "question_id": 22,
-        "survey_name": "Maruti NCR",
-        "label": "upload Image",
-        "question_type": "image",
-        "dropdown_option": [
-          "Drop1",
-          "Drop2"
-        ],
-        "validation": {
-          "name": "number",
-          "number_validation": "length",
-          "min_length": "100",
-          "max_length": "10",
-          "active": 1
-        },
-        "mcq_option": [
-          "mcqtext1",
-          "mcqtext2"
-        ]
+        "createdTs": "2020-08-14T05:52:42.201217Z",
+        "status": "ACTIVE",
+        "modifiedBy": "system"
       }
     ]
   }
-}
+]
