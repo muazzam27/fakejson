@@ -1,210 +1,163 @@
-[
-  {
-    "reservationId": 2000000484,
-    "createdTs": "2020-08-14T07:02:31.906074Z",
-    "expirationTs": "2020-08-15T19:00:00Z",
-    "customerName": "Kirsten Brixen Møller",
-    "customerEmail": "kirstenbrixen@hotmail.com",
-    "customerMobile": "+4520532889",
-    "status": "ACTIVE",
-    "storeId": "1393",
-    "collectInPickupCenter": false,
-    "lineItems": [
-      {
-        "productId": "100255161",
-        "name": "iPhone 7 32GB",
-        "erpProductId": "42322901-EA",
-        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
-        "ean": "5706649020021",
-        "totalPrice": 4782,
-        "quantity": 1
-      }
+{
+    "links": {
+        "first": "http://192.168.1.77:8000/api/products/?page%5Bnumber%5D=1",
+        "last": "http://192.168.1.77:8000/api/products/?page%5Bnumber%5D=1",
+        "next": null,
+        "prev": null
+    },
+    "data": [
+        {
+            "type": "product",
+            "id": "8",
+            "attributes": {
+                "title": "Pencil skirt",
+                "price": {
+                    "currency": "USD",
+                    "excl_tax": "100.00",
+                    "incl_tax": "100.00",
+                    "tax": "0.00"
+                }
+            },
+            "relationships": {
+                "images": {
+                    "data": [
+                        {
+                            "type": "productImage",
+                            "id": "8"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http://192.168.1.77:8000/api/products/8/"
+            }
+        },
+        {
+            "type": "product",
+            "id": "7",
+            "attributes": {
+                "title": "Trench Coat",
+                "price": {
+                    "currency": "USD",
+                    "excl_tax": "100.00",
+                    "incl_tax": "100.00",
+                    "tax": "0.00"
+                }
+            },
+            "relationships": {
+                "images": {
+                    "data": [
+                        {
+                            "type": "productImage",
+                            "id": "7"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http://192.168.1.77:8000/api/products/7/"
+            }
+        },
+        {
+            "type": "product",
+            "id": "6",
+            "attributes": {
+                "title": "Bootbox",
+                "price": {
+                    "currency": "USD",
+                    "excl_tax": "15000.00",
+                    "incl_tax": "15000.00",
+                    "tax": "0.00"
+                }
+            },
+            "relationships": {
+                "images": {
+                    "data": [
+                        {
+                            "type": "productImage",
+                            "id": "6"
+                        },
+                        {
+                            "type": "productImage",
+                            "id": "9"
+                        },
+                        {
+                            "type": "productImage",
+                            "id": "10"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http://192.168.1.77:8000/api/products/6/"
+            }
+        },
+        {
+            "type": "product",
+            "id": "5",
+            "attributes": {
+                "title": "High hills",
+                "price": {
+                    "currency": "USD",
+                    "excl_tax": "1300.00",
+                    "incl_tax": "1300.00",
+                    "tax": "0.00"
+                }
+            },
+            "relationships": {
+                "images": {
+                    "data": [
+                        {
+                            "type": "productImage",
+                            "id": "5"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http://192.168.1.77:8000/api/products/5/"
+            }
+        },
+        {
+            "type": "product",
+            "id": "2",
+            "attributes": {
+                "title": "Tatu Bag",
+                "price": {
+                    "currency": "USD",
+                    "excl_tax": "2000.00",
+                    "incl_tax": "2000.00",
+                    "tax": "0.00"
+                }
+            },
+            "relationships": {
+                "images": {
+                    "data": [
+                        {
+                            "type": "productImage",
+                            "id": "1"
+                        },
+                        {
+                            "type": "productImage",
+                            "id": "2"
+                        },
+                        {
+                            "type": "productImage",
+                            "id": "3"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http://192.168.1.77:8000/api/products/2/"
+            }
+        }
     ],
-    "reservationEvents": [
-      {
-        "createdTs": "2020-08-14T07:02:31.906074Z",
-        "status": "ACTIVE",
-        "modifiedBy": "system"
-      }
-    ]
-  },
-  {
-    "reservationId": 2000000483,
-    "createdTs": "2020-08-14T07:02:26.110064Z",
-    "expirationTs": "2020-08-15T19:00:00Z",
-    "customerName": "Kirsten Brixen Møller",
-    "customerEmail": "kirstenbrixen@hotmail.com",
-    "customerMobile": "+4520532889",
-    "status": "ACTIVE",
-    "storeId": "1393",
-    "collectInPickupCenter": false,
-    "lineItems": [
-      {
-        "productId": "100255161",
-        "name": "iPhone 7 32GB",
-        "erpProductId": "42322901-EA",
-        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
-        "ean": "5706649020021",
-        "totalPrice": 4782,
-        "quantity": 1
-      }
-    ],
-    "reservationEvents": [
-      {
-        "createdTs": "2020-08-14T07:02:26.110064Z",
-        "status": "ACTIVE",
-        "modifiedBy": "system"
-      }
-    ]
-  },
-  {
-    "reservationId": 2000000482,
-    "createdTs": "2020-08-14T07:02:20.076263Z",
-    "expirationTs": "2020-08-15T19:00:00Z",
-    "customerName": "Kirsten Brixen Møller",
-    "customerEmail": "kirstenbrixen@hotmail.com",
-    "customerMobile": "+4520532889",
-    "status": "ACTIVE",
-    "storeId": "1393",
-    "collectInPickupCenter": false,
-    "lineItems": [
-      {
-        "productId": "100255161",
-        "name": "iPhone 7 32GB",
-        "erpProductId": "42322901-EA",
-        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
-        "ean": "5706649020021",
-        "totalPrice": 4782,
-        "quantity": 1
-      }
-    ],
-    "reservationEvents": [
-      {
-        "createdTs": "2020-08-14T07:02:20.076263Z",
-        "status": "ACTIVE",
-        "modifiedBy": "system"
-      }
-    ]
-  },
-  {
-    "reservationId": 2000000481,
-    "createdTs": "2020-08-14T07:02:12.497652Z",
-    "expirationTs": "2020-08-15T19:00:00Z",
-    "customerName": "Kirsten Brixen Møller",
-    "customerEmail": "kirstenbrixen@hotmail.com",
-    "customerMobile": "+4520532889",
-    "status": "ACTIVE",
-    "storeId": "1393",
-    "collectInPickupCenter": false,
-    "lineItems": [
-      {
-        "productId": "100255161",
-        "name": "iPhone 7 32GB",
-        "erpProductId": "42322901-EA",
-        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
-        "ean": "5706649020021",
-        "totalPrice": 4782,
-        "quantity": 1
-      }
-    ],
-    "reservationEvents": [
-      {
-        "createdTs": "2020-08-14T07:02:12.497652Z",
-        "status": "ACTIVE",
-        "modifiedBy": "system"
-      }
-    ]
-  },
-  {
-    "reservationId": 2000000478,
-    "createdTs": "2020-08-14T05:52:59.463128Z",
-    "expirationTs": "2020-08-15T19:00:00Z",
-    "customerName": "Kirsten Brixen Møller",
-    "customerEmail": "kirstenbrixen@hotmail.com",
-    "customerMobile": "+4520532889",
-    "status": "ACTIVE",
-    "storeId": "1393",
-    "collectInPickupCenter": false,
-    "lineItems": [
-      {
-        "productId": "100255161",
-        "name": "iPhone 7 32GB",
-        "erpProductId": "42322901-EA",
-        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
-        "ean": "5706649020021",
-        "totalPrice": 4782,
-        "quantity": 1
-      }
-    ],
-    "reservationEvents": [
-      {
-        "createdTs": "2020-08-14T05:52:59.463128Z",
-        "status": "ACTIVE",
-        "modifiedBy": "system"
-      }
-    ]
-  },
-  {
-    "reservationId": 2000000477,
-    "createdTs": "2020-08-14T05:52:52.728325Z",
-    "expirationTs": "2020-08-15T19:00:00Z",
-    "customerName": "Kirsten Brixen Møller",
-    "customerEmail": "kirstenbrixen@hotmail.com",
-    "customerMobile": "+4520532889",
-    "status": "ACTIVE",
-    "storeId": "1393",
-    "collectInPickupCenter": false,
-    "lineItems": [
-      {
-        "productId": "100255161",
-        "name": "iPhone 7 32GB",
-        "erpProductId": "42322901-EA",
-        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
-        "ean": "5706649020021",
-        "totalPrice": 4782,
-        "quantity": 1
-      }
-    ],
-    "reservationEvents": [
-      {
-        "createdTs": "2020-08-14T05:52:52.728325Z",
-        "status": "ACTIVE",
-        "modifiedBy": "system"
-      }
-    ]
-  },
-  {
-    "reservationId": 2000000476,
-    "createdTs": "2020-08-14T05:52:42.201217Z",
-    "expirationTs": "2020-08-15T19:00:00Z",
-    "customerName": "Kirsten Brixen Møller",
-    "customerEmail": "kirstenbrixen@hotmail.com",
-    "customerMobile": "+4520532889",
-    "status": "UNAVAILABLE",
-    "storeId": "1393",
-    "collectInPickupCenter": false,
-    "lineItems": [
-      {
-        "productId": "100255161",
-        "name": "iPhone 7 32GB",
-        "erpProductId": "42322901-EA",
-        "category": "/elektronik/mobiltelefoner/alle-mobiltelefoner",
-        "ean": "5706649020021",
-        "totalPrice": 4782,
-        "quantity": 1
-      }
-    ],
-    "reservationEvents": [
-      {
-        "createdTs": "2020-08-14T06:44:39.151575Z",
-        "status": "UNAVAILABLE",
-        "modifiedBy": "100188"
-      },
-      {
-        "createdTs": "2020-08-14T05:52:42.201217Z",
-        "status": "ACTIVE",
-        "modifiedBy": "system"
-      }
-    ]
-  }
-]
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pages": 1,
+            "count": 5
+        }
+    }
+}
